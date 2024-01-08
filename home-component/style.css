@@ -91,6 +91,7 @@ header {
     position: fixed;
     height: 100vh;
     width: 15vw;
+    border-right: 1px solid #2a3034;
 }
 
 #sidebar button {
