@@ -53,6 +53,10 @@ img {
     height: 24px;
 }
 
+.round {
+    border-radius: 50%;
+}
+
 header {
     position: fixed;
     width: 100vw;
@@ -83,20 +87,11 @@ header {
     height: 60px;
 }
 
-#container {
-    display: grid;
-    justify-content: space-between;
-    grid-template-columns: 15% 45% 20%;
-    margin-top: 12vh;
-}
-
-/* #left {
+#sidebar {
+    padding: 1%;
     position: fixed;
     height: 100vh;
-} */
-
-#sidebar {
-    padding: 10%;
+    width: 15vw;
 }
 
 #sidebar button {
@@ -119,15 +114,19 @@ header {
     font-size: 1.1rem;
 }
 
+#container {
+    display: grid;
+    gap: 12vw;
+    grid-template-columns: 650px 15vw;
+    margin-top: 12vh;
+    margin-left: 30vw;
+}
+
 .menu-item {
     display: flex;
     gap: 10px;
     margin-top: 15px;
     margin-bottom: 15px;
-}
-
-.round {
-    border-radius: 50%;
 }
 
 #ideal-section {
