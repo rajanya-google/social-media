@@ -27,11 +27,6 @@ img {
     border-radius: 10px;
 }
 
-.align-center {
-    width: 80vw;
-    margin: auto;
-}
-
 .date {
     display: flex;
     gap: 3px;
@@ -118,11 +113,8 @@ header {
 }
 
 main {
-    display: grid;
-    gap: 12vw;
-    grid-template-columns: 650px 15vw;
-    margin-top: 10vh;
-    margin-left: 30vw;
+    margin-top: 8vh;
+    margin-left: 15vw;
 }
 
 .menu-item {
@@ -130,98 +122,4 @@ main {
     gap: 10px;
     margin-top: 15px;
     margin-bottom: 15px;
-}
-
-#ideal-section {
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 20px;
-}
-
-.ideal-item img {
-    height: 200px;
-    width: 92%;
-}
-
-.ideal-item p {
-    font-size: 0.9rem;
-}
-
-.post-item {
-    height: 550px;
-    padding: 3% 5%;
-    margin-bottom: 15px;
-}
-
-.post-item img {
-    height: 80%;
-    width: 100%;
-}
-
-.post-person {
-    display: grid;
-    grid-template-columns: 60px auto;
-    gap: 20px;
-    margin-bottom: 10px;
-}
-
-.info {
-    display: flex;
-    flex-direction: column;
-    gap: 5px;
-}
-
-.name-ago {
-    display: flex;
-    gap: 5px;
-    align-items: center;
-}
-
-.dot {
-    height: 5px;
-    width: 5px;
-    background-color: white;
-    border-radius: 50%;
-    align-content: center;
-}
-
-.ago {
-    opacity: 70%;
-}
-
-.tag {
-    margin-top: 10px;
-    display: flex;
-    gap: 4px;
-}
-
-.tag p {
-    color: rgb(172, 165, 247);
-}
-
-.announce-item {
-    padding: 5%;
-    display: flex;
-    flex-direction: column;
-    gap: 15px;
-    margin-bottom: 20px;
-}
-
-.announce-item .title-section p {
-    font-weight: 800;
-}
-
-.announce-item .img-section {
-    height: 50%;
-}
-
-.announce-item .content-section {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-}
-
-.announce-item .content-section .description {
-    font-size: 0.9rem;
-    opacity: 90%;
 }
