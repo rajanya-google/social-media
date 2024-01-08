@@ -60,7 +60,7 @@ img {
 header {
     position: fixed;
     width: 100vw;
-    height: 10vh;
+    height: 8vh;
     top: 0;
     left: 0;
     background-color: black;
@@ -72,14 +72,13 @@ header {
     display: flex;
     gap: 15px;
     align-items: center;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin-top: 1vh;
 }
 
 #logo p {
     font-size: 1.5rem;
     font-weight: 800;
-    color: rgb(146, 94, 4);
+    color: rgb(215, 188, 140);
 }
 
 #logo img {
@@ -118,7 +117,7 @@ header {
     display: grid;
     gap: 12vw;
     grid-template-columns: 650px 15vw;
-    margin-top: 11vh;
+    margin-top: 10vh;
     margin-left: 30vw;
 }
 
