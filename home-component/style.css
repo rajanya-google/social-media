@@ -54,8 +54,12 @@ img {
 }
 
 header {
+    position: fixed;
+    width: 100vw;
     height: 10vh;
-    /* position: fixed; */
+    top: 0;
+    left: 0;
+    z-index: 1;
 }
 
 #header-container {
@@ -63,8 +67,8 @@ header {
 }
 
 #logo {
-    display: grid;
-    grid-template-columns: 70px auto;
+    display: flex;
+    gap: 20px;
     align-items: center;
 }
 
@@ -83,8 +87,13 @@ header {
     display: grid;
     justify-content: space-between;
     grid-template-columns: 15% 45% 20%;
-    margin-top: 15px;
+    margin-top: 12vh;
 }
+
+/* #left {
+    position: fixed;
+    height: 100vh;
+} */
 
 #sidebar {
     padding: 10%;
@@ -129,7 +138,7 @@ header {
 
 .ideal-item img {
     height: 200px;
-    width: 90%;
+    width: 92%;
 }
 
 .ideal-item p {
@@ -138,7 +147,7 @@ header {
 
 .post-item {
     height: 550px;
-    padding: 5%;
+    padding: 3% 5%;
     margin-bottom: 15px;
 }
 
