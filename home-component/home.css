@@ -1,8 +1,9 @@
 #container {
-    padding: 2vh 15vw;
+    padding-top: 2vh;
+    padding-left: 10vw;
     display: grid;
     gap: 12vw;
-    grid-template-columns: 650px 15vw;
+    grid-template-columns: 700px 15vw;
 }
 
 #ideal-section {
@@ -13,11 +14,15 @@
 
 .ideal-item img {
     height: 200px;
-    width: 92%;
+    width: 98%;
 }
 
 .ideal-item p {
     font-size: 0.9rem;
+}
+
+#post-section {
+    padding: 0px 30px;
 }
 
 .post-item {
