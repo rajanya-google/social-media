@@ -63,17 +63,17 @@ header {
     height: 10vh;
     top: 0;
     left: 0;
+    background-color: black;
     z-index: 1;
-}
-
-#header-container {
-    padding-top: 30px;
+    border-bottom: 1px solid #2a3034;
 }
 
 #logo {
     display: flex;
-    gap: 20px;
+    gap: 15px;
     align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 #logo p {
@@ -118,7 +118,7 @@ header {
     display: grid;
     gap: 12vw;
     grid-template-columns: 650px 15vw;
-    margin-top: 12vh;
+    margin-top: 11vh;
     margin-left: 30vw;
 }
 
