@@ -92,6 +92,9 @@ header {
     height: 100vh;
     width: 15vw;
     border-right: 1px solid #2a3034;
+    top: 0;
+    left: 0;
+    margin-top: 10vh;
 }
 
 #sidebar button {
@@ -114,7 +117,7 @@ header {
     font-size: 1.1rem;
 }
 
-#container {
+main {
     display: grid;
     gap: 12vw;
     grid-template-columns: 650px 15vw;
