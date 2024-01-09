@@ -82,6 +82,10 @@ article {
     flex-direction: row; 
 }
 
+.message-item p {
+    font-size: 0.95rem;
+}
+
 .send-card, .receive-card {
     padding: 1.5%;
     margin-bottom: 10px;
@@ -94,7 +98,7 @@ article {
 }
 
 .receive-card {
-    background-color: rgb(95, 127, 149);
+    background-color: rgb(60, 89, 107);
 }
 
 #bottom-section {
