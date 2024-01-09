@@ -106,14 +106,14 @@ article {
     bottom: 0;
     width: 65vw;
     height: 80px;
-    padding: 10px;
+    padding: 0 25px;
     display: flex;
     align-items: center;
-    gap: 10px;
+    gap: 15px;
 }
 
 #bottom-section .sendbar {
-    height: 50%;
+    height: 60%;
     width: 100%;
     background-color: black;
 }
