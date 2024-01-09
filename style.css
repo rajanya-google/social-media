@@ -55,7 +55,7 @@ img {
 header {
     position: fixed;
     width: 100vw;
-    height: 8vh;
+    height: 70px;
     top: 0;
     left: 0;
     background-color: black;
@@ -67,7 +67,6 @@ header {
     display: flex;
     gap: 15px;
     align-items: center;
-    margin-top: 1vh;
 }
 
 #logo p {
@@ -89,7 +88,7 @@ header {
     border-right: 1px solid #2a3034;
     top: 0;
     left: 0;
-    margin-top: 10vh;
+    margin-top: 80px;
 }
 
 #sidebar button {
@@ -113,7 +112,7 @@ header {
 }
 
 main {
-    margin-top: 8vh;
+    margin-top: 70px;
     margin-left: 15vw;
 }
 

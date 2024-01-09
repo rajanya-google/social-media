@@ -1,0 +1,125 @@
+#contact-section {
+    position: fixed;
+    height: 100vh;
+    width: 20vw;
+    border-right: 1px solid #2a3034;
+}
+
+#contact-section .menubar {
+    display: flex;
+    justify-content: space-between;
+    padding: 5%;
+}
+
+.contact-item {
+    display: flex;
+    gap: 12px;
+    margin: 2% 3% 0% 3%;
+    align-items: center;
+}
+
+.contact-item .img-section {
+    width: 20%;
+    padding: 2%;
+}
+
+.contact-item .info {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    width: 80%;
+    padding-bottom: 4%;
+    border-bottom: 1px solid #2a3034;
+}
+
+.contact-item .info .name {
+    font-size: 0.95rem;
+}
+
+.contact-item .info .last-msg{
+    font-size: 0.85rem;
+    opacity: 80%;
+}
+
+article {
+    margin-left: 20vw;
+    width: 65vw;
+}
+
+#top-section {
+    position: fixed;
+    height: 70px;
+    width: 65vw;
+    display: flex;
+    gap: 20px;
+    padding: 10px 10px 10px 15px;
+}
+
+#top-section img {
+    width: 50px;
+    height: 50px;
+}
+
+#top-section .info {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+#top-section .info .seen {
+    font-size: 0.9rem;
+    opacity: 80%;
+}
+
+#message-section {
+    padding-top: 80px;
+    margin-left: 40px;
+}
+
+.message-item {
+    width: 60vw;
+    display: flex;
+    flex-direction: row; 
+}
+
+.send-card, .receive-card {
+    padding: 1.5%;
+    margin-bottom: 10px;
+    width: 20vw;
+}
+
+.send-card {
+    margin-left: auto;
+    background-color: rgb(73, 105, 73);
+}
+
+.receive-card {
+    background-color: rgb(95, 127, 149);
+}
+
+#bottom-section {
+    position: fixed;
+    bottom: 0;
+    width: 65vw;
+    height: 80px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+#bottom-section .sendbar {
+    height: 50%;
+    width: 100%;
+    background-color: black;
+}
+
+#bottom-section img {
+    width: 24px;
+    height: 24px;
+}
+
+.menu-item:nth-child(4) p {
+    color: rgb(215, 188, 140);
+    font-weight: 800;
+}
